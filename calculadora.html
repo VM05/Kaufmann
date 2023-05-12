@@ -1,0 +1,192 @@
+.<!DOCTYPE html>
+<html lang="es-CL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/kauffman.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+    <title>Kaufmann</title>
+</head>
+<body>
+<div class="container-interno">
+    <nav class="info-usuario">
+        <div class="cerrar-div">
+            <a href="#" class="cerrar">X</a>
+        </div>
+        <div class="foto-usuario">
+            <img src="assets/imagen-usuario/image_9.svg" alt="usuario">
+        </div>
+        <div class="nombre-usuario">
+            <p>Bienvenido Marcelo</p>
+        </div>
+
+        <div class="links-interno">
+            <ul>
+                <li><a href="./index.html">Newsletter</a></li>
+                <li ><a href="./Multimedia.html">Multimedia</a></li>
+                <li ><a href="./herramientas.html">Herramientas</a></li>
+                <li class="active"><a href="#">Calculadora</a></li>
+                <li class="show-mobile"><a href="#">Ayuda</a></li>
+                <li class="show-mobile"><a href="#">Configuración</a></li>
+                <li class="show-mobile"><a href="#">Cerrar Sesión</a></li>
+            </ul>
+        </div>
+        <div class="logo-empresa">
+            <a href="http://clientes.rcdigital.cl/Proyecto%20Trainee/kaufmann/inicio.html"><img src="assets/logos/kaufmann_logo_inferior_interno.png" alt="kaufmann"></a>
+        </div>
+    </nav>
+
+    <div class="main-interno">
+        <div class="opciones">
+             <ul class="config">
+                 <li><a href="#"><img src="assets/imagen-usuario/informacion 1.png" alt=""> Ayuda</a></li>
+                 <li><a href="#"><img src="assets/imagen-usuario/configuraciones 1.png" alt=""> Configuración</a></li>
+                 <li><a href="#"><img src="assets/imagen-usuario/cerrar-sesion (1) 1.png" alt=""> Cerrar Sesión</a></li>
+             </ul>
+             <div class="burger-mkt">
+ 
+                 <div class="burger">
+                     <span></span>
+                     <span></span>
+                     <span></span>
+                 </div>
+ 
+                 <div class="logo-mobile">
+                     <img src="assets/imagenes_inicio/logo_grupo_kaufmann.png" alt="logo">
+                 </div>
+ 
+                
+             </div>
+             
+        </div>
+
+
+       <!--  <div class="contenedor-slick">
+            <div class="slick">
+                <div><img src="/assets/imagen-usuario/image_9.png" alt=""></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div> -->
+   
+       
+
+        <div class="herramientas">
+                <div class="card-informacion">
+                    <h2>Calculadora de Comisiones</h2>
+                    <p>Con 2 simples pasos puedes estimar tu comisión de la venta de un cehículo, solo necesita saber el precio neto de la unidad, porcentaje de descuento y los servicios intangibles.</p> 
+                </div>
+
+                <div class="calculadora-grid">
+                    <div>
+                        <form action="#">
+                            <div class="card-informacion-formulario">
+                                   <h2>Paso 1</h2>
+                                   <div class="form-input">
+                                    <label for="tipo">Selecciona Línea</label>
+                                    <select name="tipo" id="tipo">
+                                        <option value="1" selected>Vans</option>
+                                        <option value="2">Automóviles</option>
+                                        <option value="3">Camiones Pesados</option>
+                                        <!-- <option value="Buses">Buses</option>
+                                        <option value="Rodados">Rodados</option> -->
+                                    </select>
+                                </div>
+                                <div class="form-input">
+                                    <label for="iva">Valor del Vehículo Neto (Sin IVA)</label>
+                                    <input id="iva"type="text" placeholder="Valor Sin IVA">
+                                </div>
+                                <div class="form-input">
+                                    <label for="descuento">Descuento (%)</label>
+                                    <input id="descuento" type="number" placeholder="Dcto." min="0" step="any">
+                                </div> 
+                                <div class="form-input">
+                                    <label for="valor-final"><strong>Valor Final</strong></label>
+                                    <input class ="valores" id="valor-final" type="text" placeholder="0.000.000" disabled>
+                                </div> 
+                            </div>
+
+                            <div class="card-informacion-formulario">
+                                <h2>Paso 2</h2>
+                                <div class="form-input">
+                                 <label for="respuesta">Convenio de Mtto.</label>
+                                 <select name="respuesta" id="respuesta-mtto">
+                                     <option value="no" selected>No</option>
+                                     <option value="si">Si</option>
+                                 </select>
+                             </div>
+                             <div class="form-input">
+                                <label for="respuesta">Financiamiento</label>
+                                <select name="respuesta" id="respuesta-financiamiento">
+                                    <option value="no" selected>No</option>
+                                    <option value="si">Si</option>
+                                </select>
+                             </div>
+                             <div class="form-input">
+                                <label for="respuesta">Telemetría</label>
+                                <select name="respuesta" id="respuesta-telemetria">
+                                    <option value="no" selected>No</option>
+                                    <option value="si">Si</option>
+                                </select>
+                             </div>
+                             <div class="boton-calcular">
+                                 <button class="calcular">Calcular</button>
+                            </div>
+                             
+                         </div>
+                            </form>
+                    </div>
+                    <div>
+                        <div class="card-informacion-formulario-resultados">
+                            <h2>Resultado</h2>
+                            <p>Compara tu resultado con otras alternativas</p>
+                            <div class="card-resultados">
+                                    <label for="tu-comision"><strong>Tu Comisión</strong></label>
+                                    <input class="valores" id="tu-comision" type="text" placeholder="0.000.000" disabled>
+                            </div>
+                            <div class="card-resultados">
+                                <label for="comision-unidad"><strong>Comisión Unidad</strong></label>
+                                <input class="valores" id="comision-unidad" type="text" placeholder="0.000.000" disabled>
+                            </div>
+
+                            <div class="card-resultados-comisiones">
+                                <div class="card-resultados-comisiones-input">
+                                    <label for="unidad-convenio"><strong>Unidad + Convenio</strong></label>
+                                <input class="valores" id="unidad-convenio" type="text" placeholder="0.000.000" disabled>
+                                </div>
+                                
+                                <div class="card-resultados-comisiones-input">
+                                    <label for="unidad-financiamiento"><strong>Unidad + Fínanciamiento </strong></label>
+                                <input class="valores" id="unidad-financiamiento" type="text" placeholder="0.000.000" disabled>
+                                </div>
+                                <div class="card-resultados-comisiones-input">
+                                    <label for="unidad-telemetria"><strong>Unidad + Telemetría</strong></label>
+                                <input class="valores" id="unidad-telemetria" type="text" placeholder="0.000.000" disabled>
+                                </div> 
+                            </div>
+                            <div class="card-resultados">
+                                <div class="texto-valor-final"><p><strong>Unidad Completa</strong><br></p>
+                                <h6>+Convenio +Financiamiento +telemetria</h6>
+                                </div>
+                                <input class="valores" id="unidad-completa" type="text" placeholder="0.000.000" disabled>
+                            </div>
+                            <h6>Los valores mostrados son referenciales y producto de una estimación, por tanto, no funciona como prueba o muestra final al momento de un inconveniente con las comisiones.
+                                Tu comisión por unidad varia debido a los Tipos de Cambio del día.
+                                Comisión por financiamiento considera una simulación estándar con tasa 1.60, un plazo de 36 cuotas (mínimo), y un pie de 40% (máximo).
+                                Comisión final no considera semana corrida.</h6>
+                        </div>
+                    </div>
+                </div>
+        </div>
+       
+</div>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="js/slick.js"></script>
+<script src="js/tabs.js"></script>
+<script src="js/modal.js"></script>
+<script src="js/calculadora.js"></script>
+</body>
+</html>

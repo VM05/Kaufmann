@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'Corporate S Pro Demi';
+    src: url('CorporateSPro-Demi.eot');
+    src: url('CorporateSPro-Demi.eot?#iefix') format('embedded-opentype'),
+        url('CorporateSPro-Demi.woff2') format('woff2'),
+        url('CorporateSPro-Demi.woff') format('woff'),
+        url('CorporateSPro-Demi.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CorporateS';
+    src: url('CorporateS-RegularItalic.eot');
+    src: url('CorporateS-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('CorporateS-RegularItalic.woff2') format('woff2'),
+        url('CorporateS-RegularItalic.woff') format('woff'),
+        url('CorporateS-RegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Corporate S Pro Bold';
+    src: url('CorporateSPro-Bold.eot');
+    src: url('CorporateSPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('CorporateSPro-Bold.woff2') format('woff2'),
+        url('CorporateSPro-Bold.woff') format('woff'),
+        url('CorporateSPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Corporate A Condensed';
+    src: url('CorporateACon-Reg.eot');
+    src: url('CorporateACon-Reg.eot?#iefix') format('embedded-opentype'),
+        url('CorporateACon-Reg.woff2') format('woff2'),
+        url('CorporateACon-Reg.woff') format('woff'),
+        url('CorporateACon-Reg.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Corporate A Cond Pro';
+    src: url('CorporateACondPro-Regular.eot');
+    src: url('CorporateACondPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('CorporateACondPro-Regular.woff2') format('woff2'),
+        url('CorporateACondPro-Regular.woff') format('woff'),
+        url('CorporateACondPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Corporate S Pro';
+    src: url('CorporateSPro-Regular.eot');
+    src: url('CorporateSPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('CorporateSPro-Regular.woff2') format('woff2'),
+        url('CorporateSPro-Regular.woff') format('woff'),
+        url('CorporateSPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Corporate S Light';
+    src: url('CorporateSPro-Light.eot');
+    src: url('CorporateSPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('CorporateSPro-Light.woff2') format('woff2'),
+        url('CorporateSPro-Light.woff') format('woff'),
+        url('CorporateSPro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Corporate S';
+    src: url('CorporateS-Regular.eot');
+    src: url('CorporateS-Regular.eot?#iefix') format('embedded-opentype'),
+        url('CorporateS-Regular.woff2') format('woff2'),
+        url('CorporateS-Regular.woff') format('woff'),
+        url('CorporateS-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Corporate S Bold';
+    src: url('CorporateS-Bold.eot');
+    src: url('CorporateS-Bold.eot?#iefix') format('embedded-opentype'),
+        url('CorporateS-Bold.woff2') format('woff2'),
+        url('CorporateS-Bold.woff') format('woff'),
+        url('CorporateS-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
